@@ -1,0 +1,30 @@
+/* Print Find Greatest of three no in the given range*/
+// input 10 20 30 ----->30
+
+import java.util.Scanner;
+public class Main
+{   
+   public static void main(String[] args)
+   {
+       int a=10,b=20,c=30;
+       if(a>b)
+       {
+         if(a>c)
+           System.out.print(a);
+           else
+           System.out.print(c);
+       }
+       else
+       {
+           if(b>c)
+         System.out.print(b);
+       else
+       {
+         System.out.print(c);
+       
+       }
+         
+   }
+}
+}
+
