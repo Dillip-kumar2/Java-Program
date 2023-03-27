@@ -1,0 +1,18 @@
+/* Print the ASCII value of Character in the given range*/
+// input --------->=65
+
+import java.util.Scanner;
+public class Main
+{   
+   public static void main(String[] args)
+   {
+      char ch;
+       System.out.print("Enter the Character");
+       Scanner r=new Scanner(System.in);
+       ch=r.next().charAt(0);
+      
+      int a=ch;
+     System.out.print("AscII value of "+ch +" is "+ a);
+      
+   }
+}
