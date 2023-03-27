@@ -1,0 +1,25 @@
+/* Print calculate power of a number in the given range*/
+// input n=5
+// power p=2
+// 5*5=25
+
+import java.util.Scanner;
+public class Main
+{   
+   public static void main(String[] args)
+   {
+       int n,p,result=1;
+       System.out.print("Enter the No");
+       Scanner r=new Scanner(System.in);
+       n=r.nextInt();
+      System.out.print("Enter power no");
+      p=r.nextInt();
+      for(int i=1;i<=p;i++)
+      {
+          result=n*result;
+     System.out.print("power"+result);
+       
+       }
+         
+   }
+}
