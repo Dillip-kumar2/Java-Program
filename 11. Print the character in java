@@ -1,0 +1,17 @@
+/* Print the character in the given range*/
+// input 10 ------>10
+// input A-------->A
+import java.util.Scanner;
+public class Main
+{   
+   public static void main(String[] args)
+   {
+       char ch;
+       System.out.print("Please enter the character");
+       Scanner r=new Scanner(System.in);
+       ch=r.next().charAt(0);
+       
+       
+        System.out.print(ch);
+       }
+   }
