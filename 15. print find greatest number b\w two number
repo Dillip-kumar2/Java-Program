@@ -1,0 +1,21 @@
+/* Print find the greatest number b/w two number in the given range*/
+// input 10  20 -------->20
+import java.util.Scanner;
+public class Main
+{   
+   public static void main(String[] args)
+   {
+    int a=10,b=20;
+    if(a>b)
+    {
+       System.out.print(a);
+    }
+       else
+       {
+
+       System.out.print(b);
+       
+       }
+         
+   }
+}
