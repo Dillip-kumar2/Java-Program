@@ -1,0 +1,16 @@
+/* Print A to Z Alphabet in the given range*/
+// A B C CD E F ..............Z
+import java.util.Scanner;
+public class Main
+{   
+   public static void main(String[] args)
+   {
+      for(char i='A';i<='Z';i++)
+      {
+     
+       System.out.print(i+"  ");
+       
+       }
+         
+   }
+}
