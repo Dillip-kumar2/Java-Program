@@ -1,0 +1,22 @@
+/* Print to count digits in a number in the given range*/
+// input 3456 ----->4
+
+import java.util.Scanner;
+public class Main
+{   
+   public static void main(String[] args)
+   {
+       int n,count=0;
+       System.out.print("Enter the No");
+       Scanner r=new Scanner(System.in);
+       n=r.nextInt();
+       while(n>0)
+       {n=n/10;
+       count++;
+       }
+      System.out.print("No of digits"+count);
+      
+       
+       }
+         
+   }
